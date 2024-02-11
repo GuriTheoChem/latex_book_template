@@ -1,0 +1,54 @@
+%--------------------------------------------------------------------------------------------------
+% Preamble: Packages Used and Format Settings
+%--------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------
+% General Packages Used
+%--------------------------------------------------------------------------------------------------
+\usepackage{a4} % Set paper size to A4
+\usepackage{ragged2e} % Better alignment options
+\usepackage{amsmath,amssymb} % Enhanced mathematical typesetting
+\usepackage{caption} % Customizing captions for figures and tables
+\usepackage[export]{adjustbox} % Adjusting positioning and scaling of boxes (e.g., figures)
+\usepackage{stackengine} % Stack items vertically or horizontally
+\usepackage{graphicx} % Enhanced support for graphics
+\usepackage{caption} % Customizing captions for figures and tables (continued)
+\captionsetup{justification=centering, singlelinecheck=false} % Centering figure and table captions
+\usepackage{amsfonts} % Additional mathematical fonts
+\usepackage{bm} % Bold mathematical symbols
+\usepackage{multirow} % Multi-row cells in tables
+\usepackage{float} % Improved float placement options
+\usepackage{rotating} % Rotating objects (e.g., figures, tables)
+\usepackage[version=4]{mhchem} % Typesetting chemical formulas
+\usepackage{physics} % Simplifies typesetting of common mathematical physics notation
+\usepackage{blindtext} % Generates dummy text for testing purposes
+\usepackage{braket} % Typesetting bra-ket notation used in quantum mechanics
+\usepackage{enumerate} % Customizing enumeration lists
+\usepackage{color} % Adding color support
+\usepackage{tikz} % Comprehensive support for creating graphics programmatically
+\usepackage{pgfplots} % High-quality plots and diagrams
+\renewcommand{\familydefault}{\rmdefault} % Switch to default (Roman) font
+% --- If You want to use Helvetica Font, uncomment the following 3 lines:
+% \usepackage{helvet} % Uncomment to use Helvetica font
+% \renewcommand{\familydefault}{\sfdefault} % Set default font family to sans-serif (Helvetica)
+% \usepackage[helvet]{sfmath} % Use Helvetica font for math symbols
+\usepackage[ruled,vlined]{algorithm2e} % Typesetting algorithms
+\usepackage{fancybox} % Produces simple frames and boxes
+\usepackage{verbatim} % Supports multiline comments
+\usepackage[version=4]{mhchem} % Typesetting chemical formulas (continued)
+\pgfplotsset{compat=1.16} % Set compatibility level for pgfplots
+\usepackage{setspace} % Customizing line spacing
+\onehalfspacing % Set line spacing to 1.5
+\usepackage{fancyhdr} % Customizing page headers and footers
+\pagestyle{plain} % Set page style to plain (page number centered at the bottom)
+\usepackage[sorting=none]{biblatex} % Enhanced bibliography management
+\bibliography{src/contents/backmatter/references/references} % Specify bibliography file
+
+%--------------------------------------------------------------------------------------------------
+% Multifile Package
+%--------------------------------------------------------------------------------------------------
+\usepackage{standalone} % Handling standalone files
+\usepackage{import} % Improved handling of import commands
+\usepackage{tocbibind} % Include table of contents, list of figures, etc., in table of contents
+% NOTE: use hyperref as the last package
+\usepackage{hyperref} % Enhancements for hyperlinks and cross-references
