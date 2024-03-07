@@ -10,108 +10,101 @@
 %**************************************************************************************************
 \begin{document}
 
-%**************************************************************************************************
-% frontmatter
-%**************************************************************************************************
-\frontmatter
+    % set font of every title to sans-serif
+    \allsectionsfont{\sffamily}
 
-%--------------------------------------------------------------------------------------------------
-% Add the title page 
-%--------------------------------------------------------------------------------------------------
-\import{src/contents/frontmatter/title_page/}{title_page.tex}
+    %**********************************************************************************************
+    % frontmatter
+    %**********************************************************************************************
+    \frontmatter
 
-%--------------------------------------------------------------------------------------------------
-% Dedication 
-%--------------------------------------------------------------------------------------------------
-\chapter{Dedication}
-\import{src/contents/frontmatter/dedication/}{dedication.tex}
+    % Add the title page 
+    \import{src/contents/frontmatter/title_page/}{title_page.tex}
 
-%--------------------------------------------------------------------------------------------------
-% Declaration 
-%--------------------------------------------------------------------------------------------------
-\chapter{Declaration}
-\import{src/contents/frontmatter/declaration/}{declaration.tex}
+    % Dedication 
+    \chapter{Dedication}
+    \import{src/contents/frontmatter/dedication/}{dedication.tex}
 
-%--------------------------------------------------------------------------------------------------
-% Acknowledgement
-%--------------------------------------------------------------------------------------------------
-\chapter{Acknowledgement}
-\import{src/contents/frontmatter/acknowledgement/}{acknowledgement.tex}
+    % Declaration 
+    \chapter{Declaration}
+    \import{src/contents/frontmatter/declaration/}{declaration.tex}
 
-%--------------------------------------------------------------------------------------------------
-% Abstract 
-%--------------------------------------------------------------------------------------------------
-\chapter{Abstract}
-\import{src/contents/frontmatter/abstract/}{abstract.tex}
+    % Acknowledgement
+    \chapter{Acknowledgement}
+    \import{src/contents/frontmatter/acknowledgement/}{acknowledgement.tex}
 
-%--------------------------------------------------------------------------------------------------
-% Table of Contents 
-%--------------------------------------------------------------------------------------------------
-\tableofcontents
+    % Abstract 
+    \chapter{Abstract}
+    \import{src/contents/frontmatter/abstract/}{abstract.tex}
 
-%--------------------------------------------------------------------------------------------------
-% List of Figures 
-%--------------------------------------------------------------------------------------------------
-\listoffigures
+    % Table of Contents 
+    \tableofcontents
 
-%--------------------------------------------------------------------------------------------------
-% List of Tables 
-%--------------------------------------------------------------------------------------------------
-\listoftables
+    % List of Figures 
+    \listoffigures
 
+    % List of Tables 
+    \listoftables
 
-%**************************************************************************************************
-% main matter 
-%**************************************************************************************************
-\mainmatter
+    % List of Acronyms
+    \chapter{List of Acronyms}
+    \import{src/contents/frontmatter/glossary/}{acronyms.tex}
 
-%--------------------------------------------------------------------------------------------------
-% Part 1
-%--------------------------------------------------------------------------------------------------
-\part{Part 1}
+    % List of Symbols
+    \chapter{List of Symbols}
+    \import{src/contents/frontmatter/glossary/}{symbols.tex}
 
-% Chapter 01
-\chapter{Chapter 01}
-\import{src/contents/mainmatter/part1/chapter01/}{chapter01.tex}
+    %**********************************************************************************************
+    % main matter 
+    %**********************************************************************************************
+    \mainmatter
 
-% Chapter 02
-\chapter{Chapter 02}
-\import{src/contents/mainmatter/part1/chapter02/}{chapter02.tex}
+    %----------------------------------------------------------------------------------------------
+    % Part 1
+    %----------------------------------------------------------------------------------------------
+    \part{Part 1}
 
-%--------------------------------------------------------------------------------------------------
-% Part 2
-%--------------------------------------------------------------------------------------------------
-\part{Part 2}
+    % Chapter 01
+    \chapter{Chapter 01}
+    \import{src/contents/mainmatter/part1/chapter01/}{chapter01.tex}
 
-% Chapter 03
-\chapter{Chapter 03}
-\import{src/contents/mainmatter/part2/chapter03/}{chapter03.tex}
+    % Chapter 02
+    \chapter{Chapter 02}
+    \import{src/contents/mainmatter/part1/chapter02/}{chapter02.tex}
 
-%**************************************************************************************************
-% backmatter
-% don't use \backmatter. Look up the correct use of backmatter
-%**************************************************************************************************
+    %----------------------------------------------------------------------------------------------
+    % Part 2
+    %----------------------------------------------------------------------------------------------
+    \part{Part 2}
 
-%--------------------------------------------------------------------------------------------------
-% References
-%--------------------------------------------------------------------------------------------------
-% \bibliographystyle{plain}
-% \bibliography{src/contents/backmatter/references/references.bib}
-\printbibliography[heading=bibintoc]
+    % Chapter 03
+    \chapter{Chapter 03}
+    \import{src/contents/mainmatter/part2/chapter03/}{chapter03.tex}
 
-%--------------------------------------------------------------------------------------------------
-% Appendix
-%--------------------------------------------------------------------------------------------------
-\appendix
+    %**********************************************************************************************
+    % backmatter
+    % don't use \backmatter. Look up the correct use of backmatter
+    %**********************************************************************************************
 
-% Appendix numbering
-\renewcommand{\thechapter}{\Alph{chapter}}
-% \renewcommand{\thesection}{\Roman{section}}
-% \renewcommand{\thesubsection}{\fnsymbol{subsection}}
+    %----------------------------------------------------------------------------------------------
+    % References
+    %----------------------------------------------------------------------------------------------
+    % \bibliographystyle{plain}
+    % \bibliography{src/contents/backmatter/references/references.bib}
+    \printbibliography[heading=bibintoc]
 
-\chapter{Appendix title}
-\import{src/contents/backmatter/appendix/}{appendix_chapterA.tex}
+    %----------------------------------------------------------------------------------------------
+    % Appendix
+    %----------------------------------------------------------------------------------------------
+    \appendix
 
+    % Appendix numbering
+    \renewcommand{\thechapter}{\Alph{chapter}}
+    % \renewcommand{\thesection}{\Roman{section}}
+    % \renewcommand{\thesubsection}{\fnsymbol{subsection}}
+
+    \chapter{Appendix title}
+    \import{src/contents/backmatter/appendix/}{appendix_chapterA.tex}
 
 \end{document}
 %**************************************************************************************************

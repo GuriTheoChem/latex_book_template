@@ -43,6 +43,80 @@
 \pagestyle{plain} % Set page style to plain (page number centered at the bottom)
 \usepackage[sorting=none]{biblatex} % Enhanced bibliography management
 \bibliography{src/contents/backmatter/references/references} % Specify bibliography file
+\usepackage{sectsty} % Package for customizing section titles
+\usepackage{acronym} % Package for managing acronyms
+
+%--------------------------------------------------------------------------------------------------
+% Code Block Formatting and Syntax Highlighting
+%--------------------------------------------------------------------------------------------------
+\usepackage{listings} % Package for typesetting code
+\usepackage{xcolor}   % Package for defining colors
+
+% --------------Themes------------------
+
+% Themes were generated using chatgpt
+
+% Define colors for a light themed C++ code
+\definecolor{codegreen}{rgb}{0,0.6,0}        % Define color for comments
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}      % Define color for line numbers
+\definecolor{codepurple}{rgb}{0.58,0,0.82}    % Define color for keywords
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92} % Define background color
+
+% Define listing style for light theme
+\lstdefinestyle{cpplight}{
+    language=C++,              % Set code language
+    backgroundcolor=\color{backcolour},   % Set background color
+    commentstyle=\color{codegreen},       % Set comment style
+    keywordstyle=\color{magenta},         % Set keyword style
+    numberstyle=\tiny\color{codegray},    % Set line number style
+    stringstyle=\color{codepurple},       % Set string style
+    basicstyle=\footnotesize\ttfamily,    % Set basic code style
+    breakatwhitespace=false,              % Don't break lines at whitespace
+    breaklines=true,                      % Break lines if too long
+    captionpos=b,                         % Set caption position
+    keepspaces=true,                      % Keep spaces
+    numbers=left,                         % Show line numbers on left
+    numbersep=5pt,                        % Set space between line numbers and code
+    showspaces=false,                     % Don't show spaces
+    showstringspaces=false,               % Don't show spaces in strings
+    showtabs=false,                       % Don't show tabs
+    tabsize=4                             % Set tab size
+}
+
+% Define Dracula theme colors
+\definecolor{draculabackground}{RGB}{40, 42, 54}
+\definecolor{draculafg}{RGB}{248, 248, 242}
+\definecolor{draculared}{RGB}{255, 85, 85}
+\definecolor{draculagreen}{RGB}{80, 250, 123}
+\definecolor{draculayellow}{RGB}{241, 250, 140}
+\definecolor{draculapurple}{RGB}{189, 147, 249}
+\definecolor{draculacyan}{RGB}{139, 233, 253}
+\definecolor{draculagray}{RGB}{108, 117, 125}
+\definecolor{draculadarkgray}{RGB}{68, 71, 90}
+
+% Define LaTeX listings style for Dracula theme
+\lstdefinestyle{cpp}{
+    language=C++,                                % Set code language
+    backgroundcolor=\color{draculabackground},   % Set background color
+    basicstyle=\small\ttfamily\color{draculafg}, % Set basic code style
+    keywordstyle=\color{draculapurple},          % Set keyword style
+    commentstyle=\color{draculagreen},           % Set comment style
+    stringstyle=\color{draculayellow},           % Set string style
+    numbers=left,                                % Show line numbers on left
+    numberstyle=\tiny\color{draculagray},        % Set line number style
+    stepnumber=1,                                % Set step for line numbers
+    numbersep=8pt,                               % Set space between line numbers and code
+    showspaces=false,                            % Don't show spaces
+    showstringspaces=false,                      % Don't show spaces in strings
+    tabsize=4,                                   % Set tab size
+    breaklines=true,                             % Break lines if too long
+    frame=none,                                  % Remove frame
+    rulecolor=\color{draculabackground},         % Set rule color to background color
+    aboveskip=1em,                               % Set space above code block
+    belowskip=1em                                % Set space below code block
+}
+
+% --------------Themes------------------
 
 %--------------------------------------------------------------------------------------------------
 % Multifile Package
@@ -51,4 +125,10 @@
 \usepackage{import} % Improved handling of import commands
 \usepackage{tocbibind} % Include table of contents, list of figures, etc., in table of contents
 % NOTE: use hyperref as the last package
-\usepackage{hyperref} % Enhancements for hyperlinks and cross-references
+\usepackage[hidelinks]{hyperref} % Enhancements for hyperlinks and cross-references
+% \hypersetup{
+%   colorlinks   = true, %Colours links instead of ugly boxes
+%   urlcolor     = blue, %Colour for external hyperlinks
+%   linkcolor    = blue, %Colour of internal links
+%   citecolor   = red %Colour of citations
+% }
