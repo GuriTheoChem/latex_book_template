@@ -13,10 +13,6 @@ Before making any changes, please review the guidelines below to ensure a smooth
 5. Submit a **Pull Request** to the `main` branch of the repository.
 6. Provide a clear description of your changes in the Pull Request.
 
-## Code of Conduct
-
-Please adhere to the Code of Conduct while contributing. You can find it [here](https://github.com/GuriTheoChem/latex_book_template/blob/main/CODE_OF_CONDUCT.md).
-
 ## Need Help?
 
 If you have questions or need assistance, feel free to ask by creating an issue.
