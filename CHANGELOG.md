@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## latex-book-template v0.1.0 - March 7, 2024
+## latex-book-template v1.1.0 - March 7, 2024
+
+### Added
+
+- Issue Template
+
+## latex-book-template v1.0.0 - March 7, 2024
 
 - 1st working release
 
