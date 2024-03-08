@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## phd-thesis-template v2.0.0 - March 8, 2024
+
+- Renamed Repository to phd-thesis-template
+
+### Added
+
+- [LICENSE](LICENSE)
+
+### Changed
+
+- [README](README.md)
+- Github Actions workflow release headings changed to `phd-thesis-template v.x.y.z`
+
 ## latex-book-template v1.1.0 - March 7, 2024
 
 ### Added
