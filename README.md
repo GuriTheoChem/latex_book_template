@@ -1,14 +1,14 @@
-# LaTex Book Template
+# PhD Thesis Template
 
-GitHub repository for a template latex book.
+GitHub repository for a PhD Thesis template using LaTex.
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/GuriTheoChem/latex_book_template?include_prereleases)](https://github.com/GuriTheoChem/latex_book_template/releases)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/GuriTheoChem/latex_book_template/.github%2Fworkflows%2Frelease.yml)
-![GitHub forks](https://img.shields.io/github/forks/GuriTheoChem/latex_book_template)
-![GitHub Repo stars](https://img.shields.io/github/stars/GuriTheoChem/latex_book_template)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/GuriTheoChem/phd-thesis-template?include_prereleases)](https://github.com/GuriTheoChem/phd-thesis-template/releases)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/GuriTheoChem/phd-thesis-template/.github%2Fworkflows%2Frelease.yml)
+![GitHub forks](https://img.shields.io/github/forks/GuriTheoChem/phd-thesis-template)
+![GitHub Repo stars](https://img.shields.io/github/stars/GuriTheoChem/phd-thesis-template)
 
-## Building the PDF of the Book
+## Building the PDF of the Thesis
 
 - To build the pdf of the Thesis, execute the following.
 
