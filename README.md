@@ -28,7 +28,11 @@ GitHub repository for a PhD Thesis template using LaTex.
 
 ## Screenshots
 
-![title page screenshot](screenshots/title_page_screenshot.png)
+| | |
+|-|-|
+| ![title page screenshot](screenshots/title_page_screenshot.png) |  ![alt text](screenshots/contents_page_screenshot.png) |
+|![alt text](screenshots/figure1.1_screenshot.png)|![alt text](screenshots/math_plots_screenshot.png)|
+|![alt text](screenshots/code_block_screenshot.png)|![alt text](screenshots/bib_screenshot.png)|
 
 ## License
 
