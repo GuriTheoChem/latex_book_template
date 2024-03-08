@@ -28,11 +28,20 @@ GitHub repository for a PhD Thesis template using LaTex.
 
 ## Screenshots
 
-| | |
-|-|-|
-| ![title page screenshot](screenshots/title_page_screenshot.png) |  ![alt text](screenshots/contents_page_screenshot.png) |
-|![alt text](screenshots/figure1.1_screenshot.png)|![alt text](screenshots/math_plots_screenshot.png)|
-|![alt text](screenshots/code_block_screenshot.png)|![alt text](screenshots/bib_screenshot.png)|
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <img src="screenshots/title_page_screenshot.png" alt="Title Page Screenshot" style="width: 45%;">
+    <img src="screenshots/contents_page_screenshot.png" alt="Contents Page Screenshot" style="width: 45%;">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <img src="screenshots/figure1.1_screenshot.png" alt="Figure 1.1 Screenshot" style="width: 45%;">
+    <img src="screenshots/math_plots_screenshot.png" alt="Math Plots Screenshot" style="width: 45%;">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <img src="screenshots/code_block_screenshot.png" alt="Code Block Screenshot" style="width: 45%;">
+    <img src="screenshots/bib_screenshot.png" alt="Bibliography Screenshot" style="width: 45%;">
+</div>
 
 ## License
 
