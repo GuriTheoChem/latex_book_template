@@ -29,22 +29,22 @@ GitHub repository for a PhD Thesis template using LaTex.
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/main-01.png" alt="main-01.png" style="width: 45%;">
+    <img src="images/main-01.png" alt="main-01" style="width: 45%;">
     <img src="images/main-06.png" alt="main-06" style="width: 45%;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/main-15.png" alt="main-15.png" style="width: 45%;">
+    <img src="images/main-15.png" alt="main-15" style="width: 45%;">
     <img src="images/main-17.png" alt="main-17" style="width: 45%;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/main-21.png" alt="main-21.png" style="width: 45%;">
+    <img src="images/main-21.png" alt="main-21" style="width: 45%;">
     <img src="images/main-24.png" alt="main-24" style="width: 45%;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/main-25.png" alt="main-25.png" style="width: 45%;">
+    <img src="images/main-25.png" alt="main-25" style="width: 45%;">
     <img src="images/main-31.png" alt="main-31" style="width: 45%;">
 </div>
 
