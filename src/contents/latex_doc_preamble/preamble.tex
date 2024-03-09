@@ -91,38 +91,63 @@
     tabsize=4                             % Set tab size
 }
 
-% Define Dracula theme colors
-\definecolor{draculabackground}{RGB}{40, 42, 54}
-\definecolor{draculafg}{RGB}{248, 248, 242}
-\definecolor{draculared}{RGB}{255, 85, 85}
-\definecolor{draculagreen}{RGB}{80, 250, 123}
-\definecolor{draculayellow}{RGB}{241, 250, 140}
-\definecolor{draculapurple}{RGB}{189, 147, 249}
-\definecolor{draculacyan}{RGB}{139, 233, 253}
-\definecolor{draculagray}{RGB}{108, 117, 125}
-\definecolor{draculadarkgray}{RGB}{68, 71, 90}
+\usepackage{xcolor}
+\usepackage{listings}
 
-% Define LaTeX listings style for Dracula theme
-\lstdefinestyle{cpp}{
-    language=C++,                                % Set code language
-    backgroundcolor=\color{draculabackground},   % Set background color
-    basicstyle=\small\ttfamily\color{draculafg}, % Set basic code style
-    keywordstyle=\color{draculapurple},          % Set keyword style
-    commentstyle=\color{draculagreen},           % Set comment style
-    stringstyle=\color{draculayellow},           % Set string style
-    numbers=left,                                % Show line numbers on left
-    numberstyle=\tiny\color{draculagray},        % Set line number style
-    stepnumber=1,                                % Set step for line numbers
-    numbersep=8pt,                               % Set space between line numbers and code
-    showspaces=false,                            % Don't show spaces
-    showstringspaces=false,                      % Don't show spaces in strings
-    tabsize=4,                                   % Set tab size
-    breaklines=true,                             % Break lines if too long
-    frame=none,                                  % Remove frame
-    rulecolor=\color{draculabackground},         % Set rule color to background color
-    aboveskip=1em,                               % Set space above code block
-    belowskip=1em                                % Set space below code block
+% Dracula colors (RGB)
+\definecolor{dracula-bg}{RGB}{40, 42, 54}         % Background color
+\definecolor{dracula-fg}{RGB}{248, 248, 242}      % Foreground color
+\definecolor{dracula-comment}{RGB}{98, 114, 164}  % Comment color
+\definecolor{dracula-cyan}{RGB}{80, 250, 123}     % Cyan color
+\definecolor{dracula-green}{RGB}{80, 250, 123}    % Green color
+\definecolor{dracula-orange}{RGB}{255, 184, 108}  % Orange color
+\definecolor{dracula-pink}{RGB}{255, 121, 198}    % Pink color
+\definecolor{dracula-purple}{RGB}{189, 147, 249}  % Purple color
+\definecolor{dracula-red}{RGB}{255, 85, 85}       % Red color
+\definecolor{dracula-yellow}{RGB}{241, 250, 140}  % Yellow color
+
+% Dracula style for Python
+\lstdefinestyle{python-dracula}{
+    language=Python,                               % Set code language
+    backgroundcolor=\color{dracula-bg},            % Background color
+    basicstyle=\color{dracula-fg}\ttfamily,        % Basic code style
+    commentstyle=\color{dracula-comment},          % Comment style
+    keywordstyle=\color{dracula-pink},             % Keyword style
+    stringstyle=\color{dracula-yellow},            % String style
+    numbers=left,                                  % Show line numbers on left
+    numberstyle=\tiny\color{dracula-pink},         % Line number style
+    numbersep=5pt,                                 % Space between line numbers and code
+    breaklines=true,                               % Break lines if too long
+    showspaces=false,                              % Don't show spaces
+    showstringspaces=false,                        % Don't show spaces in strings
+    frame=single,                                  % Add frame around code
+    tabsize=4,                                     % Set tab size
+    breakatwhitespace=true                         % Break lines at whitespace
+    aboveskip=1em,                                 % Set space above code block
+    belowskip=1em                                  % Set space below code block
 }
+
+% Dracula style for C++
+\lstdefinestyle{cpp-dracula}{
+    language=C++,                                  % Set code language
+    backgroundcolor=\color{dracula-bg},            % Background color
+    basicstyle=\color{dracula-fg}\ttfamily,        % Basic code style
+    commentstyle=\color{dracula-comment},          % Comment style
+    keywordstyle=\color{dracula-pink},             % Keyword style
+    stringstyle=\color{dracula-yellow},            % String style
+    numbers=left,                                  % Show line numbers on left
+    numberstyle=\tiny\color{dracula-pink},         % Line number style
+    numbersep=5pt,                                 % Space between line numbers and code
+    breaklines=true,                               % Break lines if too long
+    showspaces=false,                              % Don't show spaces
+    showstringspaces=false,                        % Don't show spaces in strings
+    frame=single,                                  % Add frame around code
+    tabsize=4,                                     % Set tab size
+    breakatwhitespace=true                         % Break lines at whitespace
+    aboveskip=1em,                                 % Set space above code block
+    belowskip=1em                                  % Set space below code block
+}
+
 
 % --------------Themes------------------
 

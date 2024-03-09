@@ -65,15 +65,29 @@
 \paragraph*{}
 \blindtext
 
-% Sample C++ code listing
-\begin{lstlisting}[style=cpp, caption={Sample C++ Code}, label=lst:cppsample]
-    #include <iostream>
+% Sample python code listing
+\begin{lstlisting}[style=python-dracula, caption={Sample Python Code}, label=lst:sample_python_code]
+# Define the distance from Earth to Vulcan in light-years
+distance_earth_to_vulcan = 16.5
+
+# Define the speed of light in light-years per year
+speed_of_light_ly_per_year = 1.0
+
+# Define warp factors and their corresponding speeds in terms of the speed of light
+warp_factors = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Speeds in terms of c
+speeds = [1, 10, 39, 102, 214, 392, 656, 1024, 1516]
+
+# Calculate the travel time for each warp factor
+for warp_factor, speed in zip(warp_factors, speeds):
+    # Calculate the effective speed for the given warp factor
+    effective_speed_ly_per_year = speed * speed_of_light_ly_per_year
     
-    // Print Hello World
-    int main() {
-        std::cout << "Hello, World!" << std::endl;
-        return 0;
-    }
+    # Calculate the travel time in years
+    travel_time_years = distance_earth_to_vulcan / effective_speed_ly_per_year
+    
+    # Print the result
+    print(f"Time to travel from Earth to Vulcan at Warp Factor {warp_factor}: {travel_time_years:.2f} years")
 \end{lstlisting}
 
 \end{document}
