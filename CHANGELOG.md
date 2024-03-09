@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## phd-thesis-template v2.0.0 - March 9, 2024
+
+### Added
+
+- Table Sample
+- Table of Contents Font Changing lines in Preamble
+- 3 new Plots and Graphs examples
+- PDF Screenshots in [README.md](README.md)
+
+### Changed
+
+- Code Blocks
+  - Changed Dracula Theme formatting
+  - Added a python-dracula and changed cpp-dracula theme
+  - Changed code block example
+
+### Removed
+
+- 2 Older example Plots and Graphs
+
 ## phd-thesis-template v2.0.0 - March 8, 2024
 
 - Renamed Repository to phd-thesis-template
@@ -12,7 +32,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-- [README](README.md)
+- [README.md](README.md)
 - Github Actions workflow release headings changed to `phd-thesis-template v.x.y.z`
 
 ## latex-book-template v1.1.0 - March 7, 2024
