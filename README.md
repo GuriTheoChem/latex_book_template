@@ -29,18 +29,23 @@ GitHub repository for a PhD Thesis template using LaTex.
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/title_page_screenshot.png" alt="Title Page Screenshot" style="width: 45%;">
-    <img src="images/contents_page_screenshot.png" alt="Contents Page Screenshot" style="width: 45%;">
+    <img src="images/main-01.png" alt="main-01.png" style="width: 45%;">
+    <img src="images/main-06.png" alt="main-06" style="width: 45%;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/figure1.1_screenshot.png" alt="Figure 1.1 Screenshot" style="width: 45%;">
-    <img src="images/math_plots_screenshot.png" alt="Math Plots Screenshot" style="width: 45%;">
+    <img src="images/main-15.png" alt="main-15.png" style="width: 45%;">
+    <img src="images/main-17.png" alt="main-17" style="width: 45%;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/code_block_screenshot.png" alt="Code Block Screenshot" style="width: 45%;">
-    <img src="images/bib_screenshot.png" alt="Bibliography Screenshot" style="width: 45%;">
+    <img src="images/main-21.png" alt="main-21.png" style="width: 45%;">
+    <img src="images/main-24.png" alt="main-24" style="width: 45%;">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <img src="images/main-25.png" alt="main-25.png" style="width: 45%;">
+    <img src="images/main-31.png" alt="main-31" style="width: 45%;">
 </div>
 
 ## License
