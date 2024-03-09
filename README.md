@@ -8,6 +8,20 @@ GitHub repository for a PhD Thesis template using LaTex.
 ![GitHub forks](https://img.shields.io/github/forks/GuriTheoChem/phd-thesis-template)
 ![GitHub Repo stars](https://img.shields.io/github/stars/GuriTheoChem/phd-thesis-template)
 
+## Using the Template
+
+Read this [article](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) from GitHub Docs on how to create a repository from a template.
+
+1. Click Use this template button and select Create a new repository.
+
+    ![use-this-template](images/use_this_template.png)
+
+2. Select with which account you want to create the repository and give it a name.
+
+3. Check out any additional options you want to incorporate.
+
+4. Click Create Repository and you are all set.
+
 ## Building the PDF of the Thesis
 
 - To build the pdf of the Thesis, execute the following.
@@ -17,6 +31,8 @@ GitHub repository for a PhD Thesis template using LaTex.
     ```
 
     This builds the pdf in the `build/` directory under the file name `main.pdf`.
+
+    > Note: I use `latexmk` for an automated compilation of this template pdf as it has cross-references(bibliography, table of contents). I do not test any other compilers. Please read more about it on this overleaf [article](https://www.overleaf.com/learn/latex/Choosing_a_LaTeX_Compiler#TeX_distributions).
 
 - To build the plots:
 
