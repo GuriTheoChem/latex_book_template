@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## phd-thesis-template v2.3.0 - March 10, 2024
+
+### Added
+
+- Color-blind friendly color palette for the plots in [generate_plots.py](src/generate_plots.py)
+- GitHub themed Code Snippet Block (light and dark version) in [preamble.tex](src/contents/latex_doc_preamble/preamble.tex)
+- More Acronyms and Mathematical Symbols
+
+### Changed
+
+- the plots were generated using the color-blind palette
+- latest screenshots in [README.md](README.md)
+
 ## phd-thesis-template v2.2.0 - March 10, 2024
 
 ### Added
