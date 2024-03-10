@@ -2,7 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
-## phd-thesis-template v2.0.0 - March 9, 2024
+## phd-thesis-template v2.2.0 - March 10, 2024
+
+### Added
+
+- Using the template instructions in [README.md](README.md)
+
+### Changed
+
+- modified Code Blocks rulecolor to match the background color
+- Warning Note on latexmk compiler usage in [README.md](README.md)
+
+## phd-thesis-template v2.1.0 - March 9, 2024
 
 ### Added
 
