@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for considering contributing to my LaTeX Book Template project! Your contributions are appreciated.
+Thank you for considering contributing to my phd-thesis-template project! Your contributions are appreciated.
 
 Before making any changes, please review the guidelines below to ensure a smooth process.
 
