@@ -14,7 +14,7 @@ Read this [article](https://docs.github.com/en/repositories/creating-and-managin
 
 1. Click Use this template button and select Create a new repository.
 
-    ![use-this-template](images/use_this_template.png)
+   <img src="images/use_this_template.png" alt="use this template" style="width: 45%;">
 
 2. Select with which account you want to create the repository and give it a name.
 
@@ -32,7 +32,7 @@ Read this [article](https://docs.github.com/en/repositories/creating-and-managin
 
     This builds the pdf in the `build/` directory under the file name `main.pdf`.
 
-    > Note: I use `latexmk` for an automated compilation of this template pdf as it has cross-references(bibliography, table of contents). I do not test any other compilers. Please read more about it on this overleaf [article](https://www.overleaf.com/learn/latex/Choosing_a_LaTeX_Compiler#TeX_distributions).
+    > Note: I use `latexmk` for an automated compilation of this template pdf as it has cross-references(bibliography, table of contents). I do not test any other compilers. Please read more about choosing a compiler on this overleaf [article](https://www.overleaf.com/learn/latex/Choosing_a_LaTeX_Compiler#TeX_distributions).
 
 - To build the plots:
 
