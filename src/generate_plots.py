@@ -8,14 +8,19 @@ years_served = [10, 8, 21, 7, 7]
 # Data for Star Trek Planets and Populations
 planets = ['Vulcan', 'Kronos', 'Earth', 'Bajor', 'Romulus']
 populations = [6, 6, 7, 2, 5]  # Adjusted populations including Romulus
-# Custom color scheme
-custom_colors = ['#1F77B4', '#FF7F0E', '#2CA02C', '#D62728', '#9467BD', '#8C564B', '#E377C2', '#7F7F7F', '#BCBD22', '#17BECF']
+
+# Color palette
+tol_palette = [
+    '#332288', '#88CCEE', '#44AA99', '#117733', '#999933',
+    '#DDCC77', '#CC6677', '#882255', '#AA4499', '#661100',
+    '#6699CC', '#AA4466', '#4477AA'
+]
 
 # Create and save plots
 
 # Starfleet Captains and Years Served
 plt.figure(figsize=(8, 6))
-plt.bar(captains, years_served, color=custom_colors[0:len(captains)])
+plt.bar(captains, years_served, color=tol_palette[:len(captains)])
 plt.title('Starfleet Captains and Years Served', fontsize=12)
 plt.xlabel('Captains', fontsize=10)
 plt.ylabel('Years Served', fontsize=10)
@@ -26,7 +31,7 @@ plt.close()
 
 # Planets and Populations
 plt.figure(figsize=(8, 6))
-plt.pie(populations, labels=planets, autopct='%1.1f%%', colors=custom_colors[0:len(planets)], startangle=140)
+plt.pie(populations, labels=planets, autopct='%1.1f%%', colors=tol_palette[:len(planets)], startangle=140)
 plt.title('Planets and Populations', fontsize=12)
 plt.tight_layout()
 plt.savefig('src/contents/figures_and_plots/plots/planets_and_populations.png')
@@ -47,7 +52,7 @@ speeds_in_c = warp_speed(warp_factors) / speed_of_light
 
 # Create the plot
 plt.figure(figsize=(8, 6))
-plt.plot(warp_factors, speeds_in_c, marker='o', linestyle='-', color=custom_colors[0])
+plt.plot(warp_factors, speeds_in_c, marker='o', linestyle='-', color=tol_palette[0])
 plt.title('Warp Factor vs. Speed in terms of Speed of Light', fontsize=14)
 plt.xlabel('Warp Factor', fontsize=12)
 plt.ylabel('Speed (times speed of light)', fontsize=12)
