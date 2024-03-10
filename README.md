@@ -50,18 +50,23 @@ Read this [article](https://docs.github.com/en/repositories/creating-and-managin
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/main-15.png" alt="main-15" style="width: 45%;">
-    <img src="images/main-17.png" alt="main-17" style="width: 45%;">
+    <img src="images/main-11.png" alt="main-11" style="width: 45%;">
+    <img src="images/main-13.png" alt="main-13" style="width: 45%;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <img src="images/main-19.png" alt="main-19" style="width: 45%;">
     <img src="images/main-21.png" alt="main-21" style="width: 45%;">
-    <img src="images/main-24.png" alt="main-24" style="width: 45%;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
     <img src="images/main-25.png" alt="main-25" style="width: 45%;">
-    <img src="images/main-31.png" alt="main-31" style="width: 45%;">
+    <img src="images/main-28.png" alt="main-28" style="width: 45%;">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <img src="images/main-29.png" alt="main-29" style="width: 45%;">
+    <img src="images/main-36.png" alt="main-36" style="width: 45%;">
 </div>
 
 ## License
