@@ -24,19 +24,27 @@ Read this [article](https://docs.github.com/en/repositories/creating-and-managin
 
 ## Building the PDF of the Thesis
 
-- To build the pdf of the Thesis, execute the following.
+- To build the pdf of the Thesis, execute the following:
 
-    ```{bash}
-    latexmk -pdf -output-directory=build src/main.tex
+    ```bash
+    latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode -synctex=1" -use-make -output-directory=build src/main.tex
     ```
-
-    This builds the pdf in the `build/` directory under the file name `main.pdf`.
 
     > Note: I use `latexmk` for an automated compilation of this template pdf as it has cross-references(bibliography, table of contents). I do not test any other compilers. Please read more about choosing a compiler on this overleaf [article](https://www.overleaf.com/learn/latex/Choosing_a_LaTeX_Compiler#TeX_distributions).
 
+- If you choose exclude Index from your final pdf, you can simply execute the following:
+
+    ```bash
+    latexmk -pdf -output-directory=build src/main.tex
+    ```
+
+    > Note: Comment out `\usepackage{makeidx}` and `\makeindex` in [preamble.tex](src/contents/latex_doc_preamble/preamble.tex). Comment out `\printindex` in [main.tex](src/main.tex).
+
+- The pdf named `main.pdf` is built in the `build/` folder.
+
 - To build the plots:
 
-    ```{bash}
+    ```bash
     python3 src/generate_plots.py
     ```
 
