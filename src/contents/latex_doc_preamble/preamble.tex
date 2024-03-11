@@ -53,6 +53,8 @@
 % \titlecontents{subsection}[2em]{\vspace{0.5em}\sffamily}{\thecontentslabel\hspace{1em}}{}{\titlerule*[0.5pc]{.}\contentspage}
 % \titlecontents{subsubsection}[3em]{\vspace{0.5em}\sffamily}{\thecontentslabel\hspace{1em}}{}{\titlerule*[0.5pc]{.}\contentspage}
 \usepackage{booktabs} % For professional-looking tables
+\usepackage{makeidx} % Package for creating index
+\makeindex % Command to create the index
 
 %--------------------------------------------------------------------------------------------------
 % Code Block Formatting and Syntax Highlighting
@@ -255,3 +257,6 @@
 %   linkcolor    = blue, %Colour of internal links
 %   citecolor   = red %Colour of citations
 % }
+
+% Custom command for referencing figures with custom text
+\newcommand{\figref}[1]{\hyperref[#1]{Figure~\ref*{#1}}}
