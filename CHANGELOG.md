@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## phd-thesis-template v2.4.0 - March 11, 2024
+
+### Added
+
+- Index in the thesis using imakeidx package of latex
+
+### Changed
+
+- pdf bookmark structure
+
+  - in previous versions, the bibliography and subsequent matter appeared under the part-2 level. Now the appear outside of the part-2 now.
+
+- Modified figure referencing title
+
+  - When figure is referenced, it would appear as `Figure x.y`
+
+- Modified [README.md](README.md)
+
+  - Added a separate section for Plots.
+
 ## phd-thesis-template v2.3.0 - March 10, 2024
 
 ### Added
