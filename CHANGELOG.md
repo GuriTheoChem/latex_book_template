@@ -12,11 +12,11 @@ All notable changes to this project will be documented in this file.
 
 - pdf bookmark structure
 
-  - in previous versions, the bibliography and subsequent matter appeared under the part-2 level. Now the appear outside of the part-2 now.
+  - the bibliography and subsequent matter appeared under the part-2 level in previous versions. Now they appear outside of part-2.
 
 - Modified figure referencing title
 
-  - When figure is referenced, it would appear as `Figure x.y`
+  - When the figure is referenced, it would appear as `Figure x.y`
 
 - Modified [README.md](README.md)
 
@@ -100,7 +100,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Formatting of Heading is done with sans-serif
-- Github Actions workflow release headings changed to `latex-book-template v.x.y.z`
+- GitHub Actions workflow release headings changed to `latex-book-template v.x.y.z`
 
 ## latex-book-template v0.1.0 - February 11, 2024
 
