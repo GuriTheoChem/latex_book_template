@@ -47,6 +47,8 @@
 \usepackage{acronym} % Package for managing acronyms
 \usepackage{booktabs} % For professional-looking tables
 \usepackage{imakeidx} % Package for creating index
+% Activate hyperlinks for the index
+\makeindex[columns=2, title=Index, intoc=true]
 
 %--------------------------------------------------------------------------------------------------
 % Table of Contents Packages
@@ -267,5 +269,3 @@
 \usepackage{bookmark}
 % Custom command for referencing figures with custom text
 \newcommand{\figref}[1]{\hyperref[#1]{Figure~\ref*{#1}}}
-% Activate hyperlinks for the index
-\makeindex[columns=2, title=Index, intoc]
