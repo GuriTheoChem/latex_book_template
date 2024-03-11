@@ -94,6 +94,7 @@
     % backmatter
     % don't use \backmatter. Look up the correct use of backmatter
     %**********************************************************************************************
+    \bookmarksetup{startatroot}
 
     %----------------------------------------------------------------------------------------------
     % References
@@ -115,8 +116,8 @@
     \chapter{Appendix title}
     \import{src/contents/backmatter/appendix/}{appendix_chapterA.tex}
 
+    % Index
     \clearpage
-    \addcontentsline{toc}{section}{Index} % Add index to table of contents
     \printindex % Print the index
 
 \end{document}
