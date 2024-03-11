@@ -27,28 +27,26 @@ Read this [article](https://docs.github.com/en/repositories/creating-and-managin
 - To build the pdf of the Thesis, execute the following:
 
     ```bash
-    latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode -synctex=1" -use-make -output-directory=build src/main.tex
+    latexmk -pdf -output-directory=build src/main.tex
     ```
 
     > Note: I use `latexmk` for an automated compilation of this template pdf as it has cross-references(bibliography, table of contents). I do not test any other compilers. Please read more about choosing a compiler on this overleaf [article](https://www.overleaf.com/learn/latex/Choosing_a_LaTeX_Compiler#TeX_distributions).
 
-- If you choose exclude Index from your final pdf, you can simply execute the following:
+- The pdf named [main.pdf](build/main.pdf) is built in the [build/](build) folder.
 
-    ```bash
-    latexmk -pdf -output-directory=build src/main.tex
-    ```
+- To get the pdf of a particular release version, go to the release and find it in the assets.
 
-    > Note: Comment out `\usepackage{makeidx}` and `\makeindex` in [preamble.tex](src/contents/latex_doc_preamble/preamble.tex). Comment out `\printindex` in [main.tex](src/main.tex).
+## Plots
 
-- The pdf named `main.pdf` is built in the `build/` folder.
-
-- To build the plots:
+- To build the new plots, modify the [generate_plots.py](src/generate_plots.py) as you wish and execute the following:
 
     ```bash
     python3 src/generate_plots.py
     ```
 
-- To get the pdf of a particular release version, go to the release and find it in the assets.
+    > Note: The images of the plots for this are already generated in this project repository and are in the [plots/](src/contents/figures_and_plots/plots).
+
+    This is of course only one example way in which a user can generate plots for their LaTex Document. Feel free to play around and incorporate your prefered way.
 
 ## Screenshots
 
