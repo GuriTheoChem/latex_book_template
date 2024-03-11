@@ -53,8 +53,7 @@
 % \titlecontents{subsection}[2em]{\vspace{0.5em}\sffamily}{\thecontentslabel\hspace{1em}}{}{\titlerule*[0.5pc]{.}\contentspage}
 % \titlecontents{subsubsection}[3em]{\vspace{0.5em}\sffamily}{\thecontentslabel\hspace{1em}}{}{\titlerule*[0.5pc]{.}\contentspage}
 \usepackage{booktabs} % For professional-looking tables
-\usepackage{makeidx} % Package for creating index
-\makeindex % Command to create the index
+\usepackage{imakeidx} % Package for creating index
 
 %--------------------------------------------------------------------------------------------------
 % Code Block Formatting and Syntax Highlighting
@@ -260,3 +259,5 @@
 \usepackage{bookmark}
 % Custom command for referencing figures with custom text
 \newcommand{\figref}[1]{\hyperref[#1]{Figure~\ref*{#1}}}
+% Activate hyperlinks for the index
+\makeindex[columns=2, title=Index, intoc]
