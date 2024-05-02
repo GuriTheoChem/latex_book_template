@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## phd-thesis-template v2.5.0 - May 2 , 2024
+
+### Added
+
+- Fancy header and footer styles in [preamble.tex](src/contents/latex_doc_preamble/preamble.tex)
+
+### Changed
+
+- formatting of the [preamble.tex](src/contents/latex_doc_preamble/preamble.tex)
+
 ## phd-thesis-template v2.4.0 - March 11, 2024
 
 ### Added
