@@ -40,7 +40,31 @@
 \usepackage{setspace} % Customizing line spacing
 \onehalfspacing % Set line spacing to 1.5
 \usepackage{fancyhdr} % Customizing page headers and footers
-\pagestyle{plain} % Set page style to plain (page number centered at the bottom)
+% \pagestyle{plain} % Set page style to plain (page number centered at the bottom)
+
+% note: if you want to use the plain page style, you need to:
+% 1. uncomment the plain page style line above
+% 2. comment out the fancy page style section below 
+% --- fancy page style ---
+\setlength{\headheight}{15pt}
+
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\sectionmark}[1]{ \markright{#1} }
+
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\sffamily{ \nouppercase{\leftmark}} }
+\fancyhead[LO]{\sffamily{ \nouppercase{\rightmark}} }
+
+\fancypagestyle{plain}{ %
+  \fancyhf{} % remove everything
+  \renewcommand{\headrulewidth}{0pt} % remove lines as well
+  \renewcommand{\footrulewidth}{0pt}
+  \fancyfoot[LE,RO]{\thepage}
+}
+% --- fancy page style ---
+
 \usepackage[sorting=none]{biblatex} % Enhanced bibliography management
 \bibliography{src/contents/backmatter/references/references} % Specify bibliography file
 \usepackage{sectsty} % Package for customizing section titles
